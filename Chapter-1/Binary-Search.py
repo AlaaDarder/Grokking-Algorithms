@@ -14,5 +14,5 @@ def binary_search(list, item):
     return None
 
 my_list = [1, 5, 9, 10, 20,60]
-# print (binary_search(my_list, 30))  # => 1
+print (binary_search(my_list, 20))  # => 4
 print('Output',binary_search(my_list, 1))  # => None
